@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saloni Vijayvargiya</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/6b98f99b06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">SALONI VIJAY</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <ul style="display:flex;" type="none">
+                <li>
+                    <div class="header-text">
+                        <p>Frontend Developer</p>
+                        <h1>Hi, I'm <span>SALONI VIJAY</span></h1>
+                    </div>
+                </li>
+                <li>
+                    <image src="./images/me.jpg" style="height:400px;width:300px;margin-top: 70px;margin-left: 80px;"></image>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="box">
+
+            <h1>ABOUT ME</h1>
+            <p class="content">My name is Saloni Vijay. I'm doing my Bachelors in Technology from Jaipur Engineering College and Research Centre and my specialization is Computer Science Engineering. I have a deep interest in development. I have been the Campus Ambassador
+                of IIT Bombay in my College and also I have been the member of social club "Soch: An Initiative to help the orphanage children" of our college. Talking about my interests I like Cooking, Painting and Dancing.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Skills')">Skills</p>
+
+            </div>
+            <div class="tab-contents active-tab" id="Education">
+                <ul>
+                    <li> <span>2020-2024 </span> Bachelors of Technology Jaipur Engineering College and Research Centre <br> Aggregate 9.94 sgpa</li>
+                    <li> <span>2020 </span> Class XII from Tilak Public School, Jaipur <br>Scored 88.6%
+                        <br>Board - CBSE
+                    </li>
+                    <li> <span>2018</span> Class X from Saint Anselm School, Phulera
+                        <br>Scored 94.0%
+                        <br>Board - CBSE
+                    </li>
+
+                </ul>
+            </div>
+            <div class="tab-contents" id="Skills">
+                <ul>
+                    <li><span>Frontend Developer</span> </li>
+                    <li><span>Object Oriented Programming</span> </li>
+                    <li><span>Data Structures and Algorithms</span> </li>
+                    <li><span>Java</span> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">SKILLS</h1>
+            <div class="skills-list">
+                <div>
+
+                    <h2>Frontend Developer</h2>
+                    <p>I'm a Frontend Developer and I have made 4 projects using HTML, CSS, Javascript.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+
+                    <h2>Object Oriented programming</h2>
+                    <p>I have learnt Object Oriented Programming during my college years. I have learnt programming languages C++, Java, Python. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Data Structures and Algorithms</h2>
+                    <p>I have learnt data Structures and Algorithms. I know all the algorithms and concepts of DSA.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>Team Work</h2>
+                    <p>I have taken part in 2 hackathons in which I have a team of 3,6 and 4 members respectively and I have a experience of Team work.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">PROJECTS</h1>
+            <div class="project-list">
+                <div class="work">
+                    <img src="images/p1.png" alt="">
+                    <div class="info">
+                        <h3>Law Court</h3>
+                        <p>It is a website which helps in solving pending cases of the court. Basically, this is a website which solves pending cases on the basis of their severity.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/p2.png" alt="">
+                    <div class="info">
+                        <h3>Landing Page</h3>
+                        <p>It is a simple landing page of Tourism Website. You can visit it from your browser.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row contact-container">
+                <div class="col-left">
+                    <h1 class="sub-title">CONTACT ME</h1>
+                    <p>salonivj30@gmail.com</p>
+                    <div class="social-icons">
+                        <a href=""><img src="images/ln.png" alt=""></a>
+                        <a href=""><img src="images/ig.jpeg" alt=""></a>
+                        <a href=""><img src="images/github.png" alt=""></a>
+                    </div>
+                    <a href="images/my_cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="col-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Made by Saloni Vijay!!</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+</body>
+
+</html>
